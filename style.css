@@ -1,0 +1,32 @@
+#maindiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid green; */
+    height: 80vh;
+
+}
+img{
+    width: 250px;
+    transition: all 1s;
+}
+#root{
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    width: 60%;
+    box-shadow: 0px 0px 10px black;
+}
+/* .imgesofcar{
+    transform: translateX(-375px);
+} */
+button{
+    z-index: 5;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
